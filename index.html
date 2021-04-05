@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Задание начинающего тестировщика</title>
+    <link rel="stylesheet" href="style.css">    
+  </head>
+  <body>
+    <div class="authorization_page">
+      <p class="authorization_page_head_text">АВТОРИЗАЦИЯ</p>
+    </div>
+    <hr>
+    <div class="authorization_page_content">
+      <p class="login_head_text">Логин(E-mail)</p>      
+      <form class="autorize" method="post" action="">
+        <div class="login">
+          <p>
+            <input type="email" name="auth_email" required="" placeholder="Введите Ваш email" autocomplete="off">
+          </p>
+        </div>
+        <p class="password_head_text">Пароль</p>
+        <div class="password">
+          <p>
+            <input type="password" id="pswInput" name="auth_pass" required="" placeholder="Введите Ваш пароль">
+          </p> 
+        </div>        
+          <p>
+            <input type="submit" name="commit" value="Войти">
+          </p>
+      </form>
+    </div>    
+    <script src="script1.js"></script>
+  </body>
+</html>

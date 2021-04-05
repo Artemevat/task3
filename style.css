@@ -1,0 +1,71 @@
+.authorization_page{
+    width: 250px;
+    height:20px;
+  }
+  
+  .authorization_page_content{
+    padding-top: 1%
+  }
+  
+  body{
+      background: khaki;
+  }
+  
+  .authorization_page_head_text{
+      display: block;
+      text-align: center;
+      padding: 1px;
+      background: yellow;
+      opacity: 0.9;
+      width: 70%;
+      font-weight: bold;
+      font-size:20px;
+  }
+  
+  hr{
+      width: 100%;
+      align-content:center;
+      color:rgb(19, 80, 211);
+  }
+  
+  input[type=submit] {
+      background-color: yellow;
+      color: black;
+      font-weight: bold;
+  }
+  
+  .login_head_text{
+    text-align: center;
+    padding: 1px;
+    background: yellow;
+    opacity: 0.9;
+    width: 70%;
+    font-weight: bold;
+}
+
+.password_head_text{
+    text-align: center;
+    padding: 1px;
+    background: yellow;
+    opacity: 0.9;
+    width: 70%;
+    font-weight: bold;
+}
+
+.login{
+    text-align: center;
+    padding: 1px;
+    background: rgb(186, 218, 46);
+    opacity: 0.9;
+    width: 70%;
+    font-weight: bold;
+}
+
+.password{
+    text-align: center;
+    padding: 1px;
+    background: rgb(186, 218, 46);
+    opacity: 0.9;
+    width: 70%;
+    font-weight: bold;
+}
